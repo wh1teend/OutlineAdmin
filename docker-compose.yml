@@ -3,7 +3,7 @@ services:
         image: amro045/outline-admin:latest
         container_name: outline-admin
         ports:
-            - "3000:3000"
+            - "3025:3025"
         volumes:
             - "./oa_data:/app/data"
         networks:
